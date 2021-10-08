@@ -1,4 +1,4 @@
-ئlocal function MuteNames(msg)
+local function MuteNames(msg)
 local text = msg.content_.text_
 function DeleteMessage_(chat,id,func)
 tdcli_function ({
